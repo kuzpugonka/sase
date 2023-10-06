@@ -2,15 +2,19 @@
   padding: 0;
   margin: 0;
   font-family: 'Inter';
+  box-sizing: border-box;
 }
 
 :root {
   --text-primary: #fff;
   --text-secondary: #d1d1d1;
+  --text-description: #7C7C7C;
   --text-shadow: #370059;
   --bg-dark: #000;
   --bg-a-gradient: linear-gradient(180deg, rgba(161, 69, 189, 0.8) 0%, rgba(55, 0, 89, 0.8) 100%), #FFFFFF;
   --bg-btn-gradient: linear-gradient(266deg, rgba(161, 69, 189, 0.80) -1.44%, rgba(55, 0, 89, 0.80) 77.83%), #000;
+  --bg-order: #eaeaea;
+  --bg-input: rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -42,8 +46,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
-a:visited {
+
+a:hover {
   color: var(--text-secondary);
+}
+
+a:visited {
+  color: var(--text-description);
 }
 
 .btn {
@@ -55,4 +64,8 @@ a:visited {
 .video-block {
   margin-top: 80px;
   width: 100%;
+}
+
+p {
+margin: 0;
 }
