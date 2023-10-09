@@ -1,14 +1,13 @@
 .cond {
-  padding-top: 70px;
-  margin-bottom: 70px;
+  padding: 70px 0 160px;
+  margin-bottom: 35px;
 
   background: url(../img/cond-bg.png);
   background-size: 150% 150%;
   background-position: 50% 70%;
-  padding-bottom: 200px;
 }
 .cond-text {
-  padding: 0 100px 70px;
+  padding: 0 16px 70px;
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
@@ -17,9 +16,10 @@
   font-weight: 700;
   font-size: 60px;
   line-height: 64px;
-  letter-spacing: -0.01em;
-  margin-bottom: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 48px;
 }
+
 .cond__description {
   color: var(--text-secondary);
   font-weight: 400;
@@ -32,26 +32,28 @@
 .cond-block {
   display: grid;
   grid-template-columns: 53fr 66fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
 }
 
 .cond__item {
-  padding: 50px 50px 80px;
-  background: rgba(0, 0, 0, 0.3);
+  padding: 50px 50px 55px;
+  background: rgba(248, 252, 6, 0.3);
   border-radius: 30px;
   position: relative;
 }
 
 .cond__item span {
+  display: block;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100%; /* 96px */
+  line-height: 100%; 
   letter-spacing: -0.96px;
+  margin-bottom: 25px;
 }
 
 .cond__item__title {
-  padding: 15px 0;
+  padding: 10px 0;
   font-size: 36px;
   font-weight: 500;
   line-height: 100%; /* 36px */
@@ -64,6 +66,11 @@
   font-weight: 400;
   line-height: 20px; /* 100% */
   letter-spacing: -0.2px;
+  /* margin-bottom: 50px; */
+}
+
+.cond__item-img {
+  margin-top: 50px;
 }
 
 .cond__item:first-child {
@@ -78,7 +85,7 @@
 
 .cond__item:nth-child(3n),
 .cond__item:first-child {
-  padding-left: 210px;
+  padding-left: 218px;
 }
 
 .cond__item:nth-child(3n) span,

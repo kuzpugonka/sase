@@ -1,6 +1,6 @@
 .footer-content {
   width: 100%;
-  padding: 75px 0;
+  padding: 65px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -15,4 +15,9 @@
 
 address {
   font-style: normal;
+}
+
+.footer-logo {
+  margin-top: 16px;
+  line-height: 1.3;
 }

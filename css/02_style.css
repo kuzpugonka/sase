@@ -26,7 +26,7 @@ body {
 
 .wrapper{
   /* position: relative; */
-  width: 100vw;
+  width: 100%;
   z-index: 2;
   min-height: 100vh;
   background-color: var(--bg-dark);
@@ -62,7 +62,6 @@ a:visited {
 }
 
 .video-block {
-  margin-top: 80px;
   width: 100%;
 }
 

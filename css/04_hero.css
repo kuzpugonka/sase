@@ -6,13 +6,13 @@
   background-position: -100px -100px;
   background-repeat: no-repeat;  */
 
-  padding-bottom: 500px;
+  padding-bottom: 335px;
 }
 
 .hero-block {
   position: relative;
   max-width: 632px;
-  padding-top: 209px;
+  padding: 90px 5px;
 }
 
 .hero__title {
@@ -21,12 +21,12 @@
   line-height: 76px;
   color: var(--text-primary);
   font-family: Helvetica Neue, sans-serif;
-  letter-spacing: 0.8px;
+  letter-spacing: 6.8px;
 }
 
 .hero__subtitle {
   display: block;
-  margin: 5px 0 120px;
+  margin: -45px 0 140px;
   font-weight: 400;
   font-size: 28px;
   line-height: 110%;
@@ -35,7 +35,7 @@
 }
 
 .hero-btn {
-  padding: 21px 65px;
+  padding: 22px 65px;
   font-size: 24px;
   font-weight: 600;
   line-height: 37.44px; /* 156% */
@@ -44,9 +44,8 @@
 
 .hero__image {
   position: absolute;
-  top: 50px;
-  height: 70vh;
-  right: -600px;
+  top: 60px;
+  right: -650px;
 }
 
 .bg {
